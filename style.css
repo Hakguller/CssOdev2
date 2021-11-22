@@ -1,0 +1,32 @@
+
+/*submit butonlarını yan yana getirilmesini sağlar.*/
+.box{
+   
+    float:right;
+    padding:0 5px;  
+    margin: auto;
+}
+
+/* submit butonlarının search butonuna hizamalama*/
+.boxes{
+    display: -webkit-inline-box;
+    padding-block: 1%;
+}
+
+/*grid sistemi ile kolonlar oluşturulması*/
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+/*tablonun detaylandırılması*/
+  .grid-item {
+    border: 1px solid rgba(255, 255, 255, 0.9);
+    text-align: center;
+    padding: 5%;
+  }
+
+ 
+ 
+      
+ 
